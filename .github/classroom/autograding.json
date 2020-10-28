@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "1. Produce executable files successfully",
+      "setup": "rm host player && make",
+      "run": "ls auction_system.sh host player",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "5. Your programs work fine together (1)",
+      "setup": "make",
+      "run": "bash auction_system.sh 1 8",
+      "input": "",
+      "output": "1 7\r\n2 7\r\n3 7\r\n4 7\r\n5 1\r\n6 3\r\n7 3\r\n8 1\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "5. Your programs work fine together (2)",
+      "setup": "make",
+      "run": "bash auction_system.sh 10 12",
+      "input": "",
+      "output": "1 2263\r\n2 2151\r\n3 2192\r\n4 2233\r\n5 878\r\n6 1118\r\n7 1153\r\n8 916\r\n9 766\r\n10 831\r\n11 1635\r\n12 1462\r\n",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": null
+    },
+    {
+      "name": "5. Your programs work fine together (3)",
+      "setup": "make",
+      "run": "bash auction_system.sh 10 9",
+      "input": "",
+      "output": "1 55\r\n2 52\r\n3 53\r\n4 54\r\n5 17\r\n6 30\r\n7 29\r\n8 14\r\n9 12\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
