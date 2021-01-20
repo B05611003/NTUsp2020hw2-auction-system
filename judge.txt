@@ -1,0 +1,204 @@
+***** Task 1 *****
+$ make
+gcc -o host -Wall host.c 
+gcc -o player -Wall player.c 
+
+--- ./host and ./player exist
+--- +0.5
+***** Task 2 *****
+$ bash auction_system.sh 1 8
+stdout ---
+1 7
+2 7
+3 7
+4 7
+5 1
+6 3
+7 3
+8 1
+
+stderr ---
+
+--- AC
+--- +1
+$ bash auction_system.sh 6 10
+stdout ---
+1 250
+2 237
+3 236
+4 241
+5 94
+6 155
+7 152
+8 74
+9 61
+10 80
+
+stderr ---
+
+--- AC
+--- +1
+$ bash auction_system.sh 10 9
+stdout ---
+1 55
+2 52
+3 53
+4 54
+5 17
+6 30
+7 29
+8 14
+9 12
+
+stderr ---
+
+--- AC
+--- +1
+***** Task 3 *****
+$ bash auction_system.sh 1 8
+stdout ---
+1 7
+2 7
+3 7
+4 7
+5 1
+6 3
+7 3
+8 1
+
+stderr ---
+
+--- AC
+--- +1
+$ bash auction_system.sh 6 10
+stdout ---
+1 250
+2 237
+3 236
+4 241
+5 94
+6 155
+7 152
+8 74
+9 61
+10 80
+
+stderr ---
+
+--- AC
+--- +1
+$ bash auction_system.sh 10 9
+stdout ---
+1 55
+2 52
+3 53
+4 54
+5 17
+6 30
+7 29
+8 14
+9 12
+
+stderr ---
+
+--- AC
+--- +1
+***** Task 4 *****
+$ bash auction_system.sh 1 8
+stdout ---
+1 7
+2 7
+3 7
+4 7
+5 1
+6 3
+7 3
+8 1
+
+stderr ---
+
+--- AC
+$ bash auction_system.sh 6 10
+stdout ---
+1 250
+2 237
+3 236
+4 241
+5 94
+6 155
+7 152
+8 74
+9 61
+10 80
+
+stderr ---
+
+--- AC
+$ bash auction_system.sh 10 9
+stdout ---
+1 55
+2 52
+3 53
+4 54
+5 17
+6 30
+7 29
+8 14
+9 12
+
+stderr ---
+
+--- AC
+--- All AC
+--- +1
+***** Task 5 *****
+$ bash auction_system.sh 1 8
+stdout ---
+1 7
+2 7
+3 7
+4 7
+5 1
+6 3
+7 3
+8 1
+
+stderr ---
+
+--- AC
+$ bash auction_system.sh 6 10
+stdout ---
+1 250
+2 237
+3 236
+4 241
+5 94
+6 155
+7 152
+8 74
+9 61
+10 80
+
+stderr ---
+
+--- AC
+$ bash auction_system.sh 10 9
+stdout ---
+1 55
+2 52
+3 53
+4 54
+5 17
+6 30
+7 29
+8 14
+9 12
+
+stderr ---
+
+--- AC
+--- All AC
+--- +0.5
+*** Total score: 8.0 ***
+Task 1,Task 2-1,Task 2-2,Task 2-3,Task 3-1,Task 3-2,Task 3-3,Task 4,Task 5,Total score
+0.5,1,1,1,1,1,1,1,0.5,8.0
